@@ -1,7 +1,0 @@
-# motor.jl
-function procesar_datos_pesados(valor)
-    # Simulamos un cálculo de servidor que tarda un poco
-    println("Julia recibió: ", valor)
-    resultado = (valor * 1.5) / 0.5
-    return "Resultado desde Julia: $resultado"
-end
